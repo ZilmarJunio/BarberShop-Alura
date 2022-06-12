@@ -8,8 +8,8 @@ ul {
 }
 .menu-principal {
 width: 100%;
-background-color: #252323;
-height: 60px;
+background-color: #4b70a2;
+height: 120px;/*altura do menu principal*/
 }
 main, .content {
 margin: 0 auto;
@@ -18,13 +18,14 @@ position: relative;
 }
 .logo {
  float: left;
- padding: 16px;
+ padding: 0px;
  width: 70%;
+ margin-top: -40px;
 }
 .redes-sociais ul li {
 margin-left: 25px;
+margin-top: 30px;
 display: inline-block;
-float: left;
 list-style: none;
 }
 .redes-sociais {
@@ -49,11 +50,11 @@ border-bottom: 3px solid #efefef;
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #00bac6;
+    border-top: 10px solid #8b8b8b;
 }
 
 .menu ul li a:hover {
-    color: #00bac6;
+    color: #8b8b8b;
     
 }
 
@@ -106,13 +107,14 @@ button.slick-next {
     height: 51px;
     z-index: 9;
     background-color: transparent;
-    position: absolute;
+    position:absolute;
     background-image: url(../img/proximo.png);
     top: 35%;
     right: 14%;
 }
 .slick-list {
-    width: 100%!important;
+    width: 1000px;
+    height: 1000px;
 }
 .slick-initialized {
     overflow: hidden;
@@ -130,13 +132,13 @@ button.slick-next {
 .slick-dots {
     margin: 0 auto;
     width: 50%;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 600px;
 }
 
 li.slick-active button {
-    background: #00bac6;
+    background: #79aefd;
 }
 
 .slick-dots li {
