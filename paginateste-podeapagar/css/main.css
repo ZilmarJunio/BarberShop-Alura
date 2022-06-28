@@ -270,7 +270,7 @@ cursor: pointer;
     content: '';
     width:  15px;
     height: 15px;
-    display: inline-block;
+    display: flex;
     background-image: url('../img/clock.png');
     float: left;
     background-repeat: no-repeat;
