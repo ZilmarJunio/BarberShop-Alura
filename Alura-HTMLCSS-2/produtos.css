@@ -94,6 +94,9 @@ nav a:hover {
 footer{
 
     text-align: center;
-    background: url("bg.jpg");
+    background-color: #BBBBBB;
+    padding: 40px 0;
+    /*Pra usar url como background->
+    background: url("bg.jpg");*/
 
 }
